@@ -1,6 +1,6 @@
 # Guestbook
 
-##Description:
+## Description:
 Guestbook is a web application where users can leave reviews and ratings.
 It allows you to log in, register and post comments with a star rating.
 Everything is built with HTML, CSS and JavaScript.
