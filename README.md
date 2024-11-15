@@ -35,4 +35,4 @@ git clone https://github.com/your_user/Guestbook.git
 3. Start leaving reviews and ratings!
 
 Or visit directly: [Guestbook on GitHub Pages]
-((https://github.com/Bambace/guestbook))
+(https://github.com/Bambace/guestbook)
