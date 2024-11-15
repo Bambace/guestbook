@@ -34,4 +34,5 @@ git clone https://github.com/your_user/Guestbook.git
 2. Open the `index.html` file in your browser.
 3. Start leaving reviews and ratings!
 
-Or visit directly: [Guestbook on GitHub Pages](https://your_user.github.io/Guestbook/)
+Or visit directly: [Guestbook on GitHub Pages]
+((https://github.com/Bambace/guestbook))
