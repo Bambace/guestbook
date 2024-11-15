@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syle.css">
+    <title>Reseñas y Calificaciones</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Deja tu Reseña</h1>
+        
+        
+        <!-- Login / Signup -->
+        <div id="auth">
+            <h2>Login / Signup</h2>
+            <form id="auth-form">
+                <input type="email" id="email" placeholder="Email" required> <br>
+                <input type="password" id="password" placeholder="Password" required><br>
+                <button type="submit" id="buton">Entrar</button>
+            </form>
+        </div>
+
+
+        <div id="notification" class="hidden">Usuario autenticado con éxito</div>
+
+        <!-- Publicar Reseña -->
+        <div id="review-form" style="display: none;">
+            <textarea id="review-text" placeholder="Escribe tu reseña aquí..." required></textarea>
+            <div id="stars">
+                <span data-value="1">⭐</span>
+                <span data-value="2">⭐</span>
+                <span data-value="3">⭐</span>
+                <span data-value="4">⭐</span>
+                <span data-value="5">⭐</span>
+            </div>
+            <button id="submit-review">Enviar Reseña</button>
+        </div>
+
+        <!-- Lista de Reseñas -->
+        <div id="reviews">
+            <h2>Reseñas</h2>
+            <ul id="review-list"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
